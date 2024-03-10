@@ -15,8 +15,16 @@
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href="pets.html">Pets</a></li>
-                <li><a class="active" href="recipes.html">Recipes</a></li>
+                <li class="active"><a href="recipes.html">Recipes</a></li>
                 <li><a href="travel.html">Travel</a></li>
+                <li class="toggle-li"><a href="#" class="toggle-button">
+                    <span class="toggle-icon">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                    Nav Button
+                </a></li>
             </ul>       
         </nav>
     </header>
@@ -47,11 +55,13 @@
                 <li>Put sliced avocado, bacon, sliced tomatoes, lettuce on one spread of bread</li>
                 <li>Put the other slice of bread at the top</li>
             </ol>
-
-            <h3>Additional Food images</h3>
-            <img src="images/ingredients.jpg" width ="200" alt = "Ingredients of BLAT sandwich">
-            <img src="images/blat_2.jpg" width="200" alt="A BLAT sandwich is placed on a dish">
-            <img src="images/blat_3.jpg" width="200" alt="A BLAT sandwich is made with multigrain bread.">
+            
+            <div class="gallery">
+                <h3>Additional Food images</h3>
+                <img src="images/ingredients.jpg" width ="200" alt = "Ingredients of BLAT sandwich">
+                <img src="images/blat_2.jpg" width="200" alt="A BLAT sandwich is placed on a dish">
+                <img src="images/blat_3.jpg" width="200" alt="A BLAT sandwich is made with multigrain bread.">
+            </div>
         </div>
 
         <div>
@@ -80,10 +90,12 @@
                 <li>Add the onions, tomatoes, cilantro, jalapeno pepper, garlic, lime juice and salt and stir everything together.</li>
             </ol>
 
-            <h3>Additional Food images</h3>
-            <img src="images/avocado_chips.jpg" width ="200" alt = "Chips and guacamole">
-            <img src="images/taco.jpg" width="200" alt="Guacamole in a taco">
-            <img src="images/guacamole_2.jpg" width="200" alt="Guacamole in a bowl">
+            <div class="gallery">
+                <h3>Additional Food images</h3>
+                <img src="images/avocado_chips.jpg" width ="200" alt = "Chips and guacamole">
+                <img src="images/taco.jpg" width="200" alt="Guacamole in a taco">
+                <img src="images/guacamole_2.jpg" width="200" alt="Guacamole in a bowl">
+            </div>
         </div>
 
         <div>
@@ -114,11 +126,17 @@
                 <li>Serve with or without dipping sauce</li>
             </ol>
 
-            <h3>Additional Food images</h3>
-            <img src="images/zucchini_fritters_2.jpeg" width ="200" alt = "Grated zucchini.">
-            <img src="images/zucchini_fritters_4.jpg" width ="200" alt = "Ingredients for zucchini fritters combined.">
-            <img src="images/zucchini_fritters_3.jpeg" width ="200" alt = "Zucchini fritters in the pan cooking.">
+            <div class="gallery">
+                <h3>Additional Food images</h3>
+                <img src="images/zucchini_fritters_2.jpeg" width ="200" alt = "Grated zucchini.">
+                <img src="images/zucchini_fritters_4.jpg" width ="200" alt = "Ingredients for zucchini fritters combined.">
+                <img src="images/zucchini_fritters_3.jpeg" width ="200" alt = "Zucchini fritters in the pan cooking.">
+            </div>
         </div>
+
+        <button class="back-to-top">Back To Top</button>
     </main>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
